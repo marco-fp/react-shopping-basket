@@ -1,0 +1,44 @@
+.shop {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  .shop-title {
+    padding: 10px;
+    background-color: #eff0f1;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+  .shopping-basket {
+    float: right;
+    width: 100%;
+
+    .title {
+      margin-bottom: 0;
+    }
+
+    .shopping-basket-total-price {
+      padding: 5px;
+      margin-bottom: 1.33em;
+    }
+  }
+
+  .item-list {
+    float: left;
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 5px;
+    }
+  }
+}
