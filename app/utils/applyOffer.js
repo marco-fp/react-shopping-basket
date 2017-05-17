@@ -6,9 +6,18 @@ const threeForTwoOffer = (itemAmount, itemPrice) => {
   return { totalPrice, appliedOffer };
 };
 
+const fiftyPercent = (itemAmount, itemPrice) => {
+  const totalPrice = itemAmount*itemPrice*0.5;
+  const appliedOffer = { reduced: totalPrice, name: '50%' };
+  return { totalPrice, appliedOffer };
+};
+
 const offers = {
   '3x2': {
     apply: threeForTwoOffer
+  },
+  '50%': {
+    apply: fiftyPercent
   }
 };
 

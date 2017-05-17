@@ -5,6 +5,9 @@ const defaultState = {
   activeOffers: {
     papayas: {
       offerName: '3x2'
+    },
+    apples: {
+      offerName: '50%'
     }
   },
   basketTotalPrice: 0
